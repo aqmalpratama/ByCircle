@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link::after {
+    @apply absolute w-full bottom-0 left-0 transform scale-x-0 transition-all duration-300 ease-in-out invisible;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fe998d;
+  }
+  .link:hover::after {
+    @apply visible transform scale-x-100;
+  }
+  .cta {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .cta:hover {
+    box-shadow: 6px 4px #fe998d;
+  }
+}
