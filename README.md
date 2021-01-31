@@ -7,7 +7,7 @@ To get started:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tailwindcss/bycircle.git bycircle
+   git clone https://github.com/tailwindcss/ByCircle.git bycircle
 
    cd bycircle
    ```
