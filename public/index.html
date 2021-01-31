@@ -20,23 +20,23 @@
   <body class="bg-gradient-to-r from-lightBlue-50 to-pink-50">
     <header class="relative w-full">
       <div class="container mx-auto">
-        <nav class="flex justify-between items-center py-4 px-24 flex-wrap">
+        <nav class="flex justify-between items-center py-4 px-4 flex-wrap">
           <a href="#" class="p-2 mr-10 inline-flex items-center">
             <img src="logo.png" alt="" />
             <h1 class="text-lg px-2">ByCircle</h1>
           </a>
           <button
-            class="text-black inline-flex p-3 rounded lg:hidden ml-auto outline-none nav-toggler"
+            class="text-black inline-flex p-3 rounded md:hidden ml-auto outline-none nav-toggler"
             data-target="#navigation"
           >
             <i class="material-icons">menu</i>
           </button>
           <div
-            class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+            class="hidden top-navbar w-full md:inline-flex md:flex-grow md:w-auto"
             id="navigation"
           >
             <div
-              class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto"
+              class="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full md:items-center items-start flex flex-col md:h-auto"
             >
               <a
                 href="#"
@@ -78,7 +78,7 @@
       </div>
     </header>
 
-    <section class="py-4">
+    <section class="py-12 md:py-4">
       <div class="container mx-auto">
         <div class="flex items-center justify-center">
           <div class="w-4/5 h-full md:w-3/4 lg:w-1/2">
@@ -88,9 +88,11 @@
       </div>
     </section>
 
-    <footer class="py-5">
+    <footer class="py-12 md:py-5 lg:py-5">
       <div class="container mx-auto">
-        <div class="flex capitalize items-center justify-center">
+        <div
+          class="flex capitalize items-center justify-center animate-bounce cursor-pointer"
+        >
           <div
             class="bg-orange-200 rounded-full text-white text-lg flex items-center justify-center capitalize"
             style="width: 25px"
